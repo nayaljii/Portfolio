@@ -30,7 +30,7 @@ aboutTabs.forEach((tab) => {
                 {
                     id: 1,
                     date: "Present",
-                    position: "Frontend Developer (Fresher)",
+                    position: "Fresher",
                     company: "Self Projects & Practice",
                     details: "I have built multiple frontend projects using HTML, CSS, and JavaScript, including real-time chat applications and responsive websites. Through these projects, I have gained hands-on experience in UI design, debugging, and performance optimization. I am continuously learning and improving my skills to stay updated with the latest frontend technologies."
                 }
