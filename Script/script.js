@@ -8,7 +8,7 @@ if(toggle) {
 
 // Home
 
-const words = ["Coder","Developer","Traveler","Creater"];
+const words = ["Coder","Developer","Traveler","Creator"];
 
 const typingText = document.getElementById("typing-span");
 

@@ -137,7 +137,9 @@ aside h2 span {
 }
 
 .aboutMe-box {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .aboutMe-box span:first-child {
@@ -229,7 +231,6 @@ aside h2 span {
     }
 
     .aboutMe-list {
-        grid-template-columns: repeat(2, 1fr);
         font-size: 1.7rem;
         gap: 2rem 1rem;
     }
