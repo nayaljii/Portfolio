@@ -143,8 +143,6 @@ input::placeholder, textarea::placeholder {
     .field {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    
 }
 
 @media screen and (width >= 1024px) {
