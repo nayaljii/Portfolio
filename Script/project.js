@@ -6,7 +6,7 @@ const projectList = [
         title: "Real-Time Chat Application - Vish'sUp",
         description: "<b>•</b> Developed a real-time chat system using WebSockets for instant bidirectional communication.<br><b>•</b> Implemented features like live messaging, online user tracking, timestamps, and message deletion.<br><b>•</b> Designed a responsive and user-friendly UI for seamless experience across devices.<br><b>•</b> Integrated MongoDB for efficient data storage and retrieval.<br><b>•</b> Deployed the application and handled real-time client-server communication.<br><i>Note: First load may take a few seconds due to server wake-up (free hosting).</i>",
         techStack: ["Node.js", "Express.js","Socket.io", "MongoDB"],
-        image: "Upload/projects/chatapp.png",
+        image: "Upload/projects/chatapp.jpeg",
         liveLink: "https://chat-app-r028.onrender.com",
         githubLink: "https://github.com/nayaljii/chat-app"
     }
