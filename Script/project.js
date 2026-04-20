@@ -4,11 +4,21 @@ const projectList = [
         number: "01",
         logo: "Upload/chatapp.png",
         title: "Real-Time Chat Application - Vish'sUp",
-        description: "<b>•</b> Developed a real-time chat system using WebSockets for instant bidirectional communication.<br><b>•</b> Implemented features like live messaging, online user tracking, timestamps, and message deletion.<br><b>•</b> Designed a responsive and user-friendly UI for seamless experience across devices.<br><b>•</b> Integrated MongoDB for efficient data storage and retrieval.<br><b>•</b> Deployed the application and handled real-time client-server communication.<br><i>Note: First load may take a few seconds due to server wake-up (free hosting).</i>",
-        techStack: ["Node.js", "Express.js","Socket.io", "MongoDB"],
+        description: "<b>•</b> Developed a real-time chat application enabling instant bidirectional communication.<br><b>•</b> Implemented features like live messaging, online user tracking, timestamps, and message deletion.<br><b>•</b> Built a responsive, user-friendly interface for seamless experience across devices.<br><b>•</b> Integrated AI chatbot support for intelligent, interactive conversations.<br><b>•</b> Deployed the application with efficient data handling and smooth client-server communication.",
+        techStack: ["Node.js", "Express.js","Socket.io", "MongoDB", "OpenAI"],
         image: "Upload/projects/chatapp.jpeg",
-        liveLink: "https://chat-app-r028.onrender.com",
+        liveLink: "https://vishsup-nayaljii.vercel.app",
         githubLink: "https://github.com/nayaljii/chat-app"
+    }, {
+        id: 2,
+        number: "02",
+        logo: "",
+        title: "Game - TIC TAC TOE",
+        description: "<b>•</b> Developed an interactive Tic Tac Toe game with smooth gameplay logic.<br><b>•</b> Implemented turn-based system with real-time win and draw detection.<br><b>•</b> Added restart functionality for continuous gameplay experience.<br><b>•</b> Designed a clean and responsive UI for all devices.<br><b>•</b> Focused on efficient game state management and user interaction.",
+        techStack: [""],
+        image: "Upload/projects/tic-tac-toe.png",
+        liveLink: "https://tic-tac-toe-nayaljii.vercel.app",
+        githubLink: "https://github.com/nayaljii/Tic-Tac-Toe"
     }
 ];
 
