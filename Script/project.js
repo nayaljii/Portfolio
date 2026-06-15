@@ -12,13 +12,13 @@ const projectList = [
     }, {
         id: 2,
         number: "02",
-        logo: "",
-        title: "Game - TIC TAC TOE",
-        description: "<b>•</b> Developed an interactive Tic Tac Toe game with smooth gameplay logic.<br><b>•</b> Implemented turn-based system with real-time win and draw detection.<br><b>•</b> Added restart functionality for continuous gameplay experience.<br><b>•</b> Designed a clean and responsive UI for all devices.<br><b>•</b> Focused on efficient game state management and user interaction.",
-        techStack: [""],
-        image: "Upload/projects/tic-tac-toe.png",
-        liveLink: "https://tic-tac-toe-nayaljii.vercel.app",
-        githubLink: "https://github.com/nayaljii/Tic-Tac-Toe"
+        logo: "Upload/studentinfologo.png",
+        title: "StudentInfo - Student Management System",
+        description: "<b>•</b> Developed a full-stack Student Management System to manage student records efficiently.<br><b>•</b> Implemented secure Google Authentication, Manual Login, JWT Authorization, and Password Encryption.<br><b>•</b> Built features for student registration, CRUD operations, attendance tracking, marks management, and percentage calculation.<br><b>•</b> Added Student ID Card generation, PDF/CSV export, and course-wise attendance management.<br><b>•</b> Designed a responsive and user-friendly interface with Admin Panel functionality for monitoring users and records.",
+        techStack: ["Node.js", "Express.js", "MongoDB"],
+        image: "Upload/StudentInfo.png",
+        liveLink: "https://student-management-system-phi-eight.vercel.app",
+        githubLink: "https://github.com/nayaljii/Student-Management-System"
     }
 ];
 
