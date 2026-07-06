@@ -16,7 +16,7 @@ const projectList = [
         title: "StudentInfo - Student Management System",
         description: "<b>•</b> Developed a full-stack Student Management System to manage student records efficiently.<br><b>•</b> Implemented secure Google Authentication, Manual Login, JWT Authorization, and Password Encryption.<br><b>•</b> Built features for student registration, CRUD operations, attendance tracking, marks management, and percentage calculation.<br><b>•</b> Added Student ID Card generation, PDF/CSV export, and course-wise attendance management.<br><b>•</b> Designed a responsive and user-friendly interface with Admin Panel functionality for monitoring users and records.",
         techStack: ["Node.js", "Express.js", "MongoDB"],
-        image: "Upload/projects/StudentInfo.png",
+        image: "Upload/projects/StudentInfo.jpeg",
         liveLink: "https://student-management-system-phi-eight.vercel.app",
         githubLink: "https://github.com/nayaljii/Student-Management-System"
     }
