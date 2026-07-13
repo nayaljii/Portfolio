@@ -86,7 +86,7 @@ document.getElementById('contact-form').addEventListener('submit', (event) => {
             }).showToast();
     }
 
-    emailjs.send('service_gfr3rap', 'template_tuh68ml', {
+    emailjs.send('service_ba8dfgm', 'template_tkh60q8', {
         name,
         email,
         phone,
