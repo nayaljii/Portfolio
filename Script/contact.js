@@ -86,7 +86,7 @@ document.getElementById('contact-form').addEventListener('submit', (event) => {
             }).showToast();
     }
 
-    emailjs.send('service_ba8dfgm', 'template_tkh60q8', {
+    emailjs.send('service_ba8dfgm', 'template_tuh68ml', {
         name,
         email,
         phone,
@@ -111,27 +111,22 @@ document.getElementById('contact-form').addEventListener('submit', (event) => {
     document.getElementById('contact-form').reset();
     })
     .catch((error) => {
-        console.log(error);
-        console.log("Status:", error.status);
-        console.log("Text:", error.text);
+        console.error('Error sending message:', error);
+        Toastify({
+            text: "Failed to send message. Please try again later.",
+            duration: 2000,
+            gravity: "top",
+            position: "center",
+            close: true,
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "rgb(206, 16, 16)",
+            },
+        }).showToast();
+        setTimeout(() => {
+            sendBtn.innerHTML = originalText;
+            Object.assign(sendBtn.style, originalStyle);
+            sendBtn.disabled = false;
+        }, 2000);
     });
-    // .catch((error) => {
-    //     console.error('Error sending message:', error);
-    //     Toastify({
-    //         text: "Failed to send message. Please try again later.",
-    //         duration: 2000,
-    //         gravity: "top",
-    //         position: "center",
-    //         close: true,
-    //         stopOnFocus: true, // Prevents dismissing of toast on hover
-    //         style: {
-    //             background: "rgb(206, 16, 16)",
-    //         },
-    //     }).showToast();
-    //     setTimeout(() => {
-    //         sendBtn.innerHTML = originalText;
-    //         Object.assign(sendBtn.style, originalStyle);
-    //         sendBtn.disabled = false;
-    //     }, 2000);
-    // });
 });
