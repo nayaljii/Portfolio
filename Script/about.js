@@ -60,8 +60,8 @@ aboutTabs.forEach((tab) => {
                 {
                     id: 1,
                     date: "2023 - 2026",
-                    department: "Bachelor's in Computer Applications",
-                    college: "Amrapali University",
+                    department: "Bachelor's of Computer Applications",
+                    college: "Kumaun University",
                 }, {
                     id: 2,
                     date: "2019 - 2021",
@@ -101,24 +101,40 @@ aboutTabs.forEach((tab) => {
             const skillList = [
                 {
                     id: 1,
+                    name: "C/C++",
+                    icon: "Upload\\skills\\cpp.png",
+                }, {
+                    id: 2,
                     name: "HTML",
                     icon: "Upload\\skills\\html.png",
                 }, {
-                    id: 2,
+                    id: 3,
                     name: "CSS",
                     icon: "Upload\\skills\\css.png",
                 }, {
-                    id: 3,
+                    id: 4,
                     name: "JavaScript",
                     icon: "Upload\\skills\\js.png",
                 }, {
-                    id: 4,
+                    id: 5,
                     name: "Node.JS",
                     icon: "Upload\\skills\\node.png",
                 }, {
-                    id: 5,
+                    id: 6,
+                    name: "Express.JS",
+                    icon: "Upload\\skills\\express.png",
+                }, {
+                    id: 7,
+                    name: "Socket.IO",
+                    icon: "Upload\\skills\\socket.png",
+                }, {
+                    id: 8,
                     name: "MongoDB",
                     icon: "Upload\\skills\\mongodb.png",
+                }, {
+                    id: 9,
+                    name: "SQL",
+                    icon: "Upload\\skills\\sql.png",
                 }
             ];
             
